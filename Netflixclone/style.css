@@ -1,0 +1,107 @@
+body {
+  position: relative; /* Establish a positioning context */
+  height: 100vh; /* Full height */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Prevent overflow */
+}
+
+body::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute; /* Position it absolutely within body */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Stretch to the right */
+  bottom: 0; /* Stretch to the bottom */
+  background-image: url(assets/imgs/netbackground.jpg); /* Your background image */
+  background-size: cover; /* Cover the entire body */
+  background-position: center; /* Center the image */
+  filter: brightness(30%); /* Apply brightness filter */
+  z-index: -1; /* Ensure it is behind other content */
+}
+section {
+  display: flex;
+
+  align-items: center;
+}
+
+nav img {
+  width: 200px;
+  margin-left: 100px;
+}
+
+#signin {
+  background-color: blanchedalmond;
+  margin-left: auto;
+  margin-right: 100px;
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #e50815;
+  border-radius: 4px;
+  font-family: "Sans", Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+}
+
+#signin a {
+  color: #ffffff;
+  text-decoration: none;
+}
+main {
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
+main div {
+  color: #ffffff;
+  align-items: center;
+}
+
+main div h1 {
+  /* font-size: xxx-large; */
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 70px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+#costs {
+  text-align: center;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+#secound {
+  text-align: center;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+#third {
+  padding: 15px;
+  padding-right: 200px;
+}
+
+#start {
+  padding: 15px;
+  padding-right: 50px;
+}
+
+button {
+  background-color: #e50815;
+}
+button p {
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
