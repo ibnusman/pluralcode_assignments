@@ -1,10 +1,16 @@
 # pluralcode_assignments
 
-Week_1
+Assignment_1
 https://ibnusman.github.io/pluralcode_assignments/Portfolio/
 
-Week_2
+Assignment_2
 https://ibnusman.github.io/pluralcode_assignments/facebookclone/
 
-Week_3
+Assignment_3
 https://ibnusman.github.io/pluralcode_assignments/Netflixclone/
+
+Assignment_4
+
+
+Assignment_5
+https://github.com/ibnusman/pluralcode_assignments/tree/week8
