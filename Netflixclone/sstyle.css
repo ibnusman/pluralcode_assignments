@@ -1,0 +1,107 @@
+body {
+  position: relative; /* Establish a positioning context */
+  height: 100vh; /* Full height */
+  margin: 0; /* Remove default margin */
+  overflow: hidden; /* Prevent overflow */
+}
+
+body::before {
+  content: ""; /* Required for pseudo-elements */
+  position: absolute; /* Position it absolutely within body */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+  right: 0; /* Stretch to the right */
+  bottom: 0; /* Stretch to the bottom */
+  background-image: url(assets/imgs/netbackground.jpg); /* Your background image */
+  background-size: cover; /* Cover the entire body */
+  background-position: center; /* Center the image */
+  filter: brightness(50%); /* Apply brightness filter */
+  z-index: -1; /* Ensure it is behind other content */
+}
+section {
+  align-items: center;
+}
+
+nav img {
+  width: 200px;
+  margin-left: 100px;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 500px;
+  margin-right: 500px;
+  color: #ffffff;
+  font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu,
+    sans-serif;
+  /* padding-top: 10px;
+  padding-left: 50px; */
+  font-size: 16px;
+}
+
+#sig h1 {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+/* 
+#sg {
+  margin-top: 10px;
+  padding-left: 50px;
+}
+.op {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 80px;
+  
+} */
+
+form input {
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 18px 50px;
+  border-radius: 5px;
+  background-color: rgba(100, 98, 98, 0.5);
+  border-style: none;
+}
+
+form button {
+  margin-left: 40px;
+  margin-top: 10px;
+  padding: 18px 100px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #e50815;
+  color: #ffffff;
+}
+#remember {
+  display: flex;
+}
+#help {
+  margin-left: auto;
+}
+
+#me {
+  margin-top: 4px;
+}
+
+#final {
+  margin-left: 3px;
+  margin-top: 10px;
+  padding: 18px 50px;
+}
+
+#final p {
+  color: rgba(221, 221, 221, 0.5);
+}
+
+#pp {
+  display: flex;
+}
+
+span {
+  color: #ffffff;
+}
+
+#final a {
+  color: blue;
+}
